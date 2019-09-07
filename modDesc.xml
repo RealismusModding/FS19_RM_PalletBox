@@ -32,6 +32,12 @@ Les palox créées automatiquement à partir du Grimme RH-26-60 vous coûteront 
         </fr>
     </description>
 
+    <credits><![CDATA[
+## Translations
+German - 
+French - Farmer1602
+]]></credits>
+
     <extraSourceFiles>
         <sourceFile filename="src/palletBoxPrice.lua" />
     </extraSourceFiles>
