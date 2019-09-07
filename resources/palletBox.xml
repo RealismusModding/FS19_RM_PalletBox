@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet">
+    <storeData>
+        <name>Fillable Pallet</name>
+        <image>store_potatoPallet.png</image>
+        <category>pallets</category>
+        <brand>LIZARD</brand>
+        <showInStore>true</showInStore>
+        <canBeSold>true</canBeSold>
+        <price>50</price>
+        <financeCategory>OTHER</financeCategory>
+        <vertexBufferMemoryUsage>24768</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>2496</indexBufferMemoryUsage>
+        <textureMemoryUsage>6291560</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>resources/palletBox.i3d</filename>
+        <size width="2" length="1.5" lengthOffset="0" />
+        <canBeReset>false</canBeReset>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="280"/>
+        </components>
+    </base>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits removeVehicleIfEmpty="false">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypeCategories="bulk" capacity="1000">
+                        <exactFillRootNode node="exactFillRootNode" />
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <fillVolume>
+        <fillVolumeConfigurations>
+            <fillVolumeConfiguration>
+                <volumes>
+                    <volume node="fillVolume" maxAllowedHeapAngle="10" fillUnitIndex="1" />
+                </volumes>
+            </fillVolumeConfiguration>
+        </fillVolumeConfigurations>
+    </fillVolume>
+
+    <dischargeable requiresTipOcclusionArea="false" >
+            <dischargeNode node="fillablePallet_main_component1" emptySpeed="1000" fillUnitIndex="1" maxDistance="6" canStartDischargeAutomatically="true" />
+    </dischargeable>
+
+    <dynamicMount triggerNode="dynamicMountTrigger" />
+
+    <tensionBeltObject>
+        <meshNodes>
+            <meshNode node="fillablePallet_vis"/>
+        </meshNodes>
+    </tensionBeltObject>
+
+    <i3dMappings>
+        <i3dMapping id="fillablePallet_main_component1" node="0>" />
+        <i3dMapping id="dynamicMountTrigger" node="0>0" />
+        <i3dMapping id="fillVolume" node="0>1|0" />
+        <i3dMapping id="exactFillRootNode" node="0>1|1" />
+        <i3dMapping id="fillTrigger" node="0>1|2" />
+        <i3dMapping id="fillablePallet_vis" node="0>2" />
+    </i3dMappings>
+</vehicle>

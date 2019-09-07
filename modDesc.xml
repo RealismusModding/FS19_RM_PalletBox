@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+    <author>Realismus Modding</author>
+    <contributors>reallogger</contributors>
+
+    <version>1.0.0.0</version>
+    <iconFilename>icon.png</iconFilename>
+    <title>
+        <en>Pallet Box</en>
+        <de>Pallet Box</de>
+        <fr>Pallet Box</fr>
+    </title>
+
+    <description>
+        <en><![CDATA[Buy empty pallet boxes and use them as many times as you want. The pallet boxes can be filled by shovel, conveyor or harvester. 
+
+Empty the pallets boxes by moving them over a trailer or sell the content at a regular sell point. Potatoes of premium quality will be sold for 50% more than if sold from a trailer.
+
+Automatically created pallet boxes from the Grimme RH-26-60 will now cost you money.]]>
+        </en>
+        <de><![CDATA[Buy empty pallet boxes and use them as many times as you want. The pallet boxes can be filled by shovel, conveyor or harvester. 
+
+Empty the pallets boxes by moving them over a trailer or sell the content at a regular sell point. Potatoes of premium quality will be sold for 50% more than if sold from a trailer.
+
+Automatically created pallet boxes from the Grimme RH-26-60 will now cost you money.]]>
+        </de>
+        <fr><![CDATA[Buy empty pallet boxes and use them as many times as you want. The pallet boxes can be filled by shovel, conveyor or harvester. 
+
+Empty the pallets boxes by moving them over a trailer or sell the content at a regular sell point. Potatoes of premium quality will be sold for 50% more than if sold from a trailer.
+
+Automatically created pallet boxes from the Grimme RH-26-60 will now cost you money.]]>
+        </fr>
+    </description>
+
+    <extraSourceFiles>
+        <sourceFile filename="src/palletBoxPrice.lua" />
+    </extraSourceFiles>
+
+    <storeItems>
+        <storeItem rootNode="objects" xmlFilename="resources/palletBox.xml"/>
+    </storeItems>
+</modDesc>
