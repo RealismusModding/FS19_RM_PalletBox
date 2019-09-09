@@ -5,10 +5,11 @@
 
     <version>1.0.0.0</version>
     <iconFilename>icon.png</iconFilename>
+
     <title>
         <en>Pallet Box</en>
-        <de>Pallet Box</de>
-        <fr>Pallet Box</fr>
+        <de>Palettenkisten</de>
+        <fr>Caisses palettes</fr>
     </title>
 
     <description>
@@ -18,11 +19,11 @@ Empty the pallets boxes by moving them over a trailer or sell the content at a r
 
 Automatically created pallet boxes from the Grimme RH-26-60 will now cost you money.]]>
         </en>
-        <de><![CDATA[Buy empty pallet boxes and use them as many times as you want. The pallet boxes can be filled by shovel, conveyor or harvester. 
+        <de><![CDATA[Kaufen Sie leere Palettenkisten und verwenden Sie sie so oft Sie möchten. Die Palettenkisten können mit Schaufel, Förderer oder Mähdrescher befüllt werden.
 
-Empty the pallets boxes by moving them over a trailer or sell the content at a regular sell point. Potatoes of premium quality will be sold for 50% more than if sold from a trailer.
+Leeren Sie die Palettenkisten, indem Sie sie über einen Anhänger bewegen, oder verkaufen Sie den Inhalt an einer regulären Verkaufsstelle. Kartoffeln von Premium-Qualität werden zu 50% mehr verkauft als auf Anhänger.
 
-Automatically created pallet boxes from the Grimme RH-26-60 will now cost you money.]]>
+Automatisch erstellte Palettenkästen vom Grimme RH-26-60 kosten Sie jetzt Geld.]]>
         </de>
         <fr><![CDATA[Achetez des palox (caisses-palettes) vides et utilisez-les autant de fois que vous le souhaitez. Les palox peuvent être remplies au godet, au convoyeur ou à la moissonneuse-batteuse. 
 
@@ -34,7 +35,6 @@ Les palox créées automatiquement à partir du Grimme RH-26-60 vous coûteront 
 
     <credits><![CDATA[
 ## Translations
-German - 
 French - Farmer1602
 ]]></credits>
 

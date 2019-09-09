@@ -2,7 +2,7 @@
 <vehicle type="pallet">
     <storeData>
         <name>Fillable Pallet</name>
-        <image>store_potatoPallet.png</image>
+        <image>store_palletBox.png</image>
         <category>pallets</category>
         <brand>LIZARD</brand>
         <showInStore>true</showInStore>
